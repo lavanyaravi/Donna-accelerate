@@ -1,0 +1,424 @@
+
+/* Theme Name:   Accelerate Theme Child
+ Theme URI:    http://example.com/accelerate-theme-child/
+ Description:  Accelerate Child Theme - Accelerate
+ Author:       Your Name!
+ Author URI:   http://example.com
+ Template:     accelerate-theme
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  accelerate-theme-child
+*/
+
+@import url("../accelerate-theme/style.css");
+/* Homepage Styles */
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+}
+
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+#masthead h1 {
+    font-size: 27px;
+    text-transform: uppercase;
+    font-variant-caps: all-small-caps;
+    font-weight: 300;
+
+}
+/* Accelerate title */
+.site-title {
+	padding-bottom: 4px;
+}
+
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+.recent-posts  {
+	margin-left: 2em;
+
+}
+.site-description{
+	margin-left: 1em;
+}
+
+.blog-post {
+	width: 43%;
+	float: left;
+
+}
+.blog-post  h4 {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	letter-spacing: 0.034em;
+	font-weight: 500;
+    font-style: regular;
+	color: #a6a6a6;
+	text-transform: uppercase;
+	margin-bottom: 3.5em;
+}
+.blog-post h2 {
+    font-weight: 100;
+	font-family: 'Montserrat';
+	margin-bottom: 2em;
+
+}
+.blog-post .read-more-link {
+	font-size: 14px;
+	font-family: 'Arial';
+	letter-spacing: 0.036em;
+	font-weight: 600;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+/*navigation link fonts*/
+.primary-navigation li {
+	display: inline-block;
+	font-family: 'Montserrat';
+	font-weight: 100;
+	font-size: 14px;
+	padding-left: 1.2em;
+    margin-right: 1.5em;
+}
+
+li a:visited {
+	font-weight:bold;
+}
+/* caption on image */
+.picCaption h3 {
+	letter-spacing: 1px;
+	line-height: 140%;
+
+}
+
+.picCaption .tealWord {
+	color: #45ac9d;
+}
+
+.social-media-navigation [class *= "fa fa-"] {
+	background-color: #333;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin: auto 3px;
+    width: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+
+/* Case studies */
+article.case-study {
+margin: 20px 0 0;
+overflow: auto;
+}
+
+aside.case-study-sidebar {
+	float: left;
+	width: 300px;
+	margin: 0 40px 0 0;
+}
+aside.case-study-sidebar h5 {
+	color: #9b9898;
+	font-weight: lighter;
+	font-size: 15px;
+}
+
+div.case-study-images	{
+	float: left;
+	width: 400px;
+}
+div.case-study-images img {
+	display: block;
+	max-width: 100%;
+	margin-bottom: 50px;
+	border: 1px solid #dddddd;
+}
+
+.case-study{
+	float: left;
+}
+
+.case-study-sidebar:after {
+
+  content: "";
+  display: table;
+  clear: both;
+  overflow: hidden;
+}
+
+p  a {
+	font-weight: 500;
+
+}
+
+.case-study-sidebar h2{
+	font-weight: 600;
+	font-size: 17;
+}
+
+.viewlink a{
+	font-size: 10;
+	font-weight: 600;
+}
+
+/* tweets*/
+
+.widget-area {
+	width: 47%;
+    float: left;
+
+    margin-left: 4.3em;
+}
+
+  .widget-area h3 {
+
+    font-size: 16px;
+	font-family: 'Montserrat';
+	letter-spacing: 0.034em;
+	font-weight: normal;
+
+	color: #a6a6a6;
+	text-transform: uppercase;
+	margin-left: 2.4em;
+	margin-bottom: 3.5em;
+}
+
+.widget-area .PI_SimpleTwitterTweets h3 a {
+	font-size: 18px;
+    font-weight: 500;
+	font-family: 'Montserrat';
+	color: black;
+    margin-top: 3.5em;
+    margin-left: -2.2em;
+
+}
+
+.widget-area .read-more-link {
+	font-size: 14px;
+	font-family: 'Arial';
+	letter-spacing: 0.036em;
+	font-weight: 600;
+	color: #45ac9d;
+	text-transform: uppercase;
+	padding-left: 3.4em;
+}
+
+.widget-area #pi_simpletwittertweets-2 .tweets  {
+	margin-top: 3em;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+/* Newsletter */
+label {
+	margin-right: 1em;
+}
+
+#mc4wp_form_widget-2 h3{
+	margin-left: -0.3em;
+}
+
+#mc4wp_form_widget-2 .button {
+	width: 6.5em;
+	height: 3.5em;
+	font-size: 14px;
+	padding: 2px;
+}
+
+/* featured work images */
+
+.featured-work {
+	margin-bottom: 5.5em;
+}
+
+li.individual-featured-work{
+	display: inline-block;
+	padding-right: 12px;
+
+}
+
+li figure img {
+max-width: 95%;
+padding-right: -14px;
+}
+
+ul{
+	margin: 0 0 24px 10px;
+}
+
+
+/* Featured work section title */
+.featured-work h4 {
+	text-align: center;
+	margin-bottom: 2em;
+	font-size: 18px;
+}
+
+li.individual-featured-work h3 {
+	text-align: center;
+	font-size: 17px;
+	font-weight: 500;
+}
+
+/*site-info space on top*/
+.site-footer {
+	padding-top: 8em;
+
+}
+
+.site-footer .site-info {
+	padding-top: 3em;
+}
+
+/* space at the bottom of the page */
+#page {
+	padding-bottom: 4em;
+}
+
+
+#nf-field-4{
+    background: #45ac9d;
+    color: white;
+    float: right;
+    width: 14em;
+    height: 3em;
+    padding-right: 0.25em;
+
+ }
+
+
+div.nf-field-label label{
+	font-weight: normal;
+	font-size: 16px;
+}
+
+div#content {
+ width: 800px;
+ margin-left: 4em;
+ margin-right: 1em;
+ margin:auto;
+}
+
+
+.classzero #writing {
+	float: center;
+	text-align: center;
+	margin-bottom: 3em;
+	margin:auto;
+}
+
+.individual-featured-work{
+    margin-bottom: 2em;
+    width: 85%;
+    margin-left: 4em;
+}
+
+.ourservices {
+	float: center;
+    padding-left: 1.5em;
+	text-align: center;
+	margin-bottom: 3em;
+	margin-left: 6em;
+    width: 58%;
+
+}
+
+.ourservices #title {
+	font-family: 'Montserrat';
+	font-size: 17px;
+	font-weight: bold;
+}
+.ourservices p {
+    font-size: 17px;
+	font-weight: 200;
+}
+
+.evenpost {
+	width: 65%;
+	float: right;
+    margin-bottom: 1em;
+    margin-left: -2em;
+    text-align: justify;
+
+}
+
+.evenpost #title{
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.oddpost {
+	width: 65%;
+	float: left;
+	margin-bottom: 1em;
+}
+
+.oddpost #title {
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.site-content {
+	border-bottom-width: 2px solid black;
+}
+
+#toWork{
+	width: 100%;
+    height: 2em;
+   border-top: 1px dotted gray;
+
+}
+
+#toWork h2{
+	margin-top: 3.6em;
+	margin-left: 4em;
+	width: 40%;
+}
+
+#toWork .contactButton{
+	float: right;
+    width: 45%;
+    margin-top: -2em;
+}
+
+.site-footer {
+	padding-top: 1em;
+	padding-bottom: 3em;
+
+}
+
+.picCaption{
+	width: 60%;
+	margin-left: 11em;
+}
+
+.home-page{
+	height: 8em;
+}
+
+/* 404 page */
+
+.ship{
+	background: url('../accelerate-theme-child/img/wreck640.jpg') no-repeat top center;
+	position: relative;
+	max-width: 100%;
+	height: 70em;
+	margin-top: 1em;
+}
+
+#error {
+position: absolute;
+top: 17.6em;
+left: 4em;
+color: black;
+font-size: 1.7em;
+font-weight: bold;
+}
+.gray{
+	color: #24890d;
+}
+
